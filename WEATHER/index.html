@@ -1,0 +1,225 @@
+  <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Code-X-Gang | AIBM-CODERS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      </head>
+      <body>
+        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">BCA Ka Razin <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-snow2" viewBox="0 0 16 16">
+                <path d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793v-1.086l-.646.647a.5.5 0 0 1-.707-.708L7.5 10.293V8.866l-1.236.713-.495 1.85a.5.5 0 1 1-.966-.26l.237-.882-.94.542-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495.94-.542-.882-.237a.5.5 0 1 1 .258-.966l1.85.495L7 8l-1.236-.713-1.849.495a.5.5 0 1 1-.258-.966l.883-.237-.94-.542-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 0 1 .966-.258l.495 1.849.94.542-.236-.883a.5.5 0 0 1 .966-.258l.495 1.849 1.236.713V5.707L6.147 4.354a.5.5 0 1 1 .707-.708l.646.647V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 0 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v1.086l.647-.647a.5.5 0 1 1 .707.708L8.5 5.707v1.427l1.236-.713.495-1.85a.5.5 0 1 1 .966.26l-.236.882.94-.542.495-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495-.94.542.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l1.236.713 1.849-.495a.5.5 0 0 1 .259.966l-.883.237.94.542 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-.94-.542.236.883a.5.5 0 0 1-.966.258L9.736 9.58 8.5 8.866v1.427l1.354 1.353a.5.5 0 0 1-.707.708l-.647-.647v1.086l1.354 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z"/>
+              </svg>
+
+
+
+              </a>
+             
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index2.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://education.nationalgeographic.org/resource/weather">Features</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Contact us
+                    </a>
+                    
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://chat.whatsapp.com/LpYXM7SHeSqG7Y6Mpj1RxS">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="https://t.me/Code_X_Gang">Telegram</a></li>
+                      <li><a class="dropdown-item" href="https://instagram.com/aibm_ckm?igshid=YmMyMTA2M2Y=">Instagram</a></li>
+                      <form class="d-flex" role="search">
+                        
+                        
+                      </form>
+                    </div>
+                    
+                    <nav class="navbar bg-light">
+                        <div class="container-fluid">
+                          <form class="d-flex" role="search">
+                            <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+                          </form>
+                        </div>
+                      </nav>
+                  </nav> 
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container"></div>
+                    <h1 class="my-4 textcenter">Weather of <span id="cityName"></span></h1>
+          <main>
+            
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Temperatures</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><span id="temp2"><small class="text-muted fw-light"></span><span>&#8451;</span></small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Temperature is <span id="temp"></span></li>
+                      <li>Min temperature is <span id="min_temp"></span></li>
+                      <li>Max temperature is <span id="max_temp"></span></li>
+                      
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Tempratures</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">humidity info</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><span id="humidity2"></span><small class="text-muted fw-light">%</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Cloud pct is <span id="cloud_pct"></span></li>
+                      <li>Feels like is <span id="feels_like"></span></li>
+                      <li>Humidity is <span id="humidity"></span></li>
+                    
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Wind speed</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><span id="wind_speed"></span><small class="text-muted fw-light">km/hr</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                     
+                      <li>Wind degree is <span id="wind_degrees"></span></li>
+                      <li>Sunrise time is <span id="sunrise"></span></li>
+                      <li>Sunset time is <span id="sunset"></span></li>
+                      
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <h2 class="display-6 text-center mb-4">Search your city and see weather</h2>
+        
+            <main>
+
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Example</font></font></h1>
+                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Learn computer basics and learn programming language.</font></font></p>
+                        <p><a class="btn btn-lg btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Have a nice today</font></font></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+            
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Learn programming language</font></font></h1>
+                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">No one is perfect,that is why pencils have erasers</font></font></p>
+                        <p><a class="btn btn-lg btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Take it easy</font></font></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">One more for good measure.</font></font></h1>
+                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Never stop learning because life never stop teaching</font></font></p>
+                        <p><a class="btn btn-lg btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">keep going ,keep growing</font></font></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">the previous</font></font></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Next</font></font></span>
+                </button>
+              </div>
+            
+            
+             
+            
+            
+               
+                <hr class="featurette-divider">
+            
+                <div class="row featurette">
+                  <div class="col-md-7">
+                    <iframe src="https://player.vimeo.com/video/137857207" title="video" allowfullscreen></iframe>
+                    <h2 class="featurette-heading fw-normal lh-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Weather, </font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Climate.</font></font></span></h2>
+                    <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Weather is driven by air pressure, temperature, and moisture differences between one place and another. These differences can occur due to the Sun's angle at any particular spot, which varies with latitude. The strong temperature contrast between polar and tropical air gives rise to the largest scale atmospheric circulations: the Hadley cell, the Ferrel cell, the polar cell.Weather systems in the middle latitudes, such as extratropical cyclones, are caused by instabilities of the jet streamflow. Because Earth's axis is tilted relative to its orbital plane (called the ecliptic), sunlight is incident at different angles at different times of the year. On Earth's surface, temperatures usually range ±40 °C (−40 °F to 104 °F) annually. Over thousands of years, changes in Earth's orbit can affect the amount and distribution of solar energy received by Earth, thus influencing long-term climate and global climate change.</font></font></p>
+                  </div>
+                  
+                  <div class="col-md-5">
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                     
+                        <img class="object-cover object-center rounded" alt="" src="https://source.unsplash.com/520x440/?rain,cloud">
+                      </div>
+                 
+                  </div>
+                </div>
+                <hr class="featurette-divider">
+           
+              </div>
+              <footer class="container">
+                <p class="float-end"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Go back to the top</font></font></a></p>
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">©</font><font style="vertical-align: inherit;">· </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Code-X-Gang</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> · </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></a></p>
+              </footer>
+            </main> 
+
+          <div class="container"></div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      </body>
+    </html>
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
